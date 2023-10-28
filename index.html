@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>StackQueueDeque</title>
+  <link rel="stylesheet" href="./src/styles/style.css">
+
+</head>
+<body>
+<main>
+  <h1 class="title">Welcome to Stack</h1>
+  <div>
+    <textarea id = "displayStack"></textarea>
+  </div>
+  <div>
+    <input id = "pushValueA" value="1" />
+  </div>
+
+  <button onclick="PushStack()" > Push </button>
+  <button onclick="PopStack()" > Pop </button>
+  <button onclick="SizeStack()" > Size </button>
+  <button onclick="ClearStack()" > Clear </button>
+  <button onclick="FrontStack()" > Front </button>
+  <button onclick="BackStack()" > Back </button>
+</main>
+
+<main>
+  <h1 class="title">Welcome to Deque</h1>
+  <div>
+    <textarea id = "displayDeque"></textarea>
+  </div>
+  <div>
+    <input id = "pushValueB" value="2" />
+  </div>
+
+  <button onclick="PushBackDeque()" > PushBack </button>
+  <button onclick="PushFrontDeque()" > PushFront </button>
+  <button onclick="PopBackDeque()" > PopBack </button>
+  <button onclick="PopFrontDeque()" > PopFront </button>
+  <button onclick="SizeDeque()" > Size </button>
+  <button onclick="ClearDeque()" > Clear </button>
+  <button onclick="FrontDeque()" > Front </button>
+  <button onclick="BackDeque()" > Back </button>
+</main>
+
+<main>
+  <h1 class="title">Welcome to Queue</h1>
+  <div>
+    <textarea id = "displayQueue"></textarea>
+  </div>
+  <div>
+    <input id = "pushValueC" value="3" />
+  </div>
+
+  <button onclick="PushBackQueue()" > PushBack </button>
+  <button onclick="PopFrontQueue()" > PopFront </button>
+  <button onclick="SizeQueue()" > Size </button>
+  <button onclick="ClearQueue()" > Clear </button>
+  <button onclick="FrontQueue()" > Front </button>
+  <button onclick="BackQueue()" > Back </button>
+</main>
+<script src="./src/scripts/stack.js"></script>
+<script src="./src/scripts/queue.js"></script>
+<script src="./src/scripts/deque.js"></script>
+<script src="./src/scripts/structures.js"></script>
+</body>
+</html>
